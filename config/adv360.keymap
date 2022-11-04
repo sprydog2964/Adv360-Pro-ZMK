@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
-  &kp F1                  &kp F2        &kp F3        &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7  &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
-  &trans                  &trans        &trans        &trans  &trans  &trans             &none   &none  &trans  &trans      &trans   &trans   &trans   &trans
- &kp ESC              &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans             &none  &trans  &trans                       &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &kp C_BACKLIGHT_TOGGLE  &kp C_BRI_DN  &kp C_BRI_UP  &trans  &trans             &none   &none  &trans   &none       &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans                  &trans        &trans        &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp DELETE   &trans   &trans   &trans  &trans  &trans
+  &kp F1         &kp F2        &kp F3        &kp F4        &kp F5      &kp F6            &tog 1   &mo 3  &kp F7  &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
+  &trans     &macro_ws1    &macro_ws2    &macro_ws3    &macro_ws4  &macro_ws5             &none   &none  &trans  &trans      &trans   &trans   &trans   &trans
+ &kp ESC          &none    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP      &trans             &none  &trans  &trans                       &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &kp C_AC_BACK  &kp C_BRI_DN  &kp C_BRI_UP        &trans      &trans             &none   &none  &trans   &none       &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans         &trans        &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans  &kp DELETE   &trans   &trans   &trans  &trans  &trans
             >;
         };
 
