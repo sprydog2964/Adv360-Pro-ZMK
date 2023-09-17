@@ -35,11 +35,11 @@
     combos {
         compatible = "zmk,combos";
 
-        shifts_caps_lock {
+        combo_shifts_caps_lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <46 65>;
-            slow-release;
-            layers = <0>;
+            layers = <0 3>;
+            timeout-ms = <200>;
         };
     };
 
