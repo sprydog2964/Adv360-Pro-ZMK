@@ -57,9 +57,9 @@
         layer_fn {
             bindings = <
 &kp F1  &kp F2           &kp F3       &kp F4                &kp F5                 &kp F6                &mo 2             &mo 2   &kp F7  &kp F8  &kp F9      &kp F10  &kp F11  &kp F12
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK          &none             &none   &trans  &kp A   &kp UP      &trans   &trans   &trans
-&trans  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt MINUS UNDERSCORE  &none             &trans  &trans                      &trans   &trans   &none    &trans  &kp LEFT    &kp DOWN           &kp RIGHT        &trans  &trans
-&trans  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt EQUAL PLUS        &none             &none   &trans  &none   &none       &trans   &none    &none    &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK          &none             &none   &trans  &none   &kp UP      &trans   &trans   &trans
+&trans  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt UNDERSCORE MINUS  &none             &trans  &trans                      &trans   &trans   &none    &trans  &kp LEFT    &kp DOWN           &kp RIGHT        &trans  &trans
+&trans  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt PLUS EQUAL        &none             &none   &trans  &none   &none       &trans   &none    &none    &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
 &trans  &trans           &trans       &bt BT_SEL 0          &bt BT_SEL 1           &kp DEL               &macro_mac_trash  &trans  &trans  &trans  &kp DELETE  &trans   &trans   &trans   &trans  &trans
             >;
         };
@@ -76,11 +76,11 @@
 
         layer_3 {
             bindings = <
-&mt EQUAL PLUS  &kp N1           &kp N2  &kp N3  &kp N4  &kp N5     &mo 2             &mo 2         &kp N6        &kp N7     &kp N8         &kp N9         &kp N0             &mt MINUS UNDERSCORE
-&kp TAB         &kp W            &kp L   &kp Y   &kp P   &kp B      &trans            &trans        &kp Z         &kp F      &kp O          &kp U          &kp SINGLE_QUOTE   &kp BACKSLASH
-&kp ESCAPE      &kp C            &kp R   &kp S   &kp T   &kp G      &trans            &kp LEFT_WIN  &kp LEFT_ALT                            &kp RIGHT_WIN  &kp RIGHT_CONTROL  &trans                &kp M   &kp N  &kp E      &kp I      &kp A       &kp SEMICOLON
-&kp LSHIFT      &kp Q            &kp J   &kp V   &kp D   &kp K      &trans            &trans        &kp HOME      &trans     &trans         &kp END        &trans             &trans                &kp X   &kp H  &kp SLASH  &kp COMMA  &kp PERIOD  &kp RSHIFT
-&mo 1           &mt GRAVE TILDE  &trans  &trans  &trans  &kp SPACE  &kp LEFT_CONTROL  &trans        &trans        &kp ENTER  &kp BACKSPACE  &trans         &trans             &trans                &trans  &mo 1
+&mt EQUAL PLUS  &kp N1           &kp N2  &kp N3  &kp N4  &kp N5     &mo 2             &mo 2         &kp N6        &kp N7     &kp N8         &kp N9         &kp N0                          &mt MINUS UNDERSCORE
+&kp TAB         &kp W            &kp L   &kp Y   &kp P   &kp B      &trans            &trans        &kp Z         &kp F      &kp O          &kp U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp BACKSLASH
+&kp ESCAPE      &kp C            &kp R   &kp S   &kp T   &kp G      &trans            &kp LEFT_WIN  &kp LEFT_ALT                            &kp RIGHT_WIN  &kp RIGHT_CONTROL               &trans                &kp M   &kp N  &kp E               &kp I                &kp A                    &kp SEMICOLON
+&kp LSHIFT      &kp Q            &kp J   &kp V   &kp D   &kp K      &trans            &trans        &kp HOME      &trans     &trans         &kp END        &trans                          &trans                &kp X   &kp H  &mt QUESTION SLASH  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &kp RSHIFT
+&mo 1           &mt TILDE GRAVE  &trans  &trans  &trans  &kp SPACE  &kp LEFT_CONTROL  &trans        &trans        &kp ENTER  &kp BACKSPACE  &trans         &trans                          &trans                &trans  &mo 1
             >;
         };
     };
